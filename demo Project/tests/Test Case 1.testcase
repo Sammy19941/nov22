@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testCase guid="964037f0-9181-4e79-9bc9-5019583197a4">
+  <summary/>
+  <steps>
+    <apiCall apiId="com.provar.plugins.bundled.apis.messaging.Subscribe" guid="7b4f6d53-ac35-48c6-8160-da84ede368bd" name="Subscribe" testItemId="1" title="Subscribe: ">
+      <arguments>
+        <argument id="sourceConnectionName"/>
+        <argument id="connectionId">
+          <value class="value"/>
+        </argument>
+        <argument id="resultName"/>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.GenerateTestCase" guid="e28713b7-3949-4424-ae14-0da635e0b288" name="GenerateTestCase" testItemId="2" title="Generate Test Case: ⇒ ">
+      <arguments>
+        <argument id="objectsName">
+          <value class="value" valueClass="string">Account</value>
+        </argument>
+        <argument id="connectionName"/>
+      </arguments>
+    </apiCall>
+  </steps>
+</testCase>
